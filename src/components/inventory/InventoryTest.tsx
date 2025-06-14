@@ -226,19 +226,4 @@ export const InventoryTest: React.FC = () => {
     </div>
   );
 };
-
 export default InventoryTest;
-cat > src/App.tsx << 'EOF'
-import React from 'react'
-import InventoryTest from './components/inventory/InventoryTest'
-import './App.css'
-
-function App() {
-  return (
-    <div className="App">
-      <InventoryTest />
-    </div>
-  )
-}
-
-export default App
